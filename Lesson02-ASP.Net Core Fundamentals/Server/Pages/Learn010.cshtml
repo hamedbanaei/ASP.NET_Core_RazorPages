@@ -1,0 +1,82 @@
+﻿@page
+@model Server.Pages.Learn010Model
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	@*
+		Error: Razor
+
+		@Hello
+	*@
+
+	@@Hello
+
+	<hr />
+
+	@@@@Hello
+
+	<hr />
+
+	HamedBanaei1982@GMail.com
+
+	<hr />
+
+	@{
+		string myImageFileName = "Hamed";
+	}
+
+	@*
+		Error: Razor
+
+		<img src="/images/@myImageFileName.jpg" />
+	*@
+
+	@{
+		string myImageFileNameWithExtension = $"{myImageFileName}.jpg";
+	}
+
+	@*
+		Error: HTML Validator (https://Validator.W3.org)
+	*@
+
+	<img src="/images/@myImageFileNameWithExtension" />
+
+	<img src="/images/@myImageFileNameWithExtension" alt="Profile Image" />
+
+	<hr />
+
+	<img src="/images/@(myImageFileName).jpg" alt="Profile Image" />
+
+	<hr />
+
+	<img src="~/images/@(myImageFileName).jpg" alt="Profile Image" />
+
+	<hr />
+
+	<a href="~/Index">Home</a>
+
+	<hr />
+
+	<h3>
+		Learning HTML Helper
+	</h3>
+
+	@{
+		string text = "<h3>Hello, World!</h3>";
+	}
+
+	@(text)
+
+	<br />
+
+	@Html.Raw(text)
+
+	<hr />
+</body>
+</html>

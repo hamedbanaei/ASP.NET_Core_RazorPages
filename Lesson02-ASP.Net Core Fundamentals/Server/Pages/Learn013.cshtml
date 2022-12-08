@@ -1,0 +1,46 @@
+﻿@page
+@model Server.Pages.Learn013Model
+
+@*
+	Error: Razor
+
+	@ for(...)
+*@
+
+@*
+	HTML Elements:
+	- Inline Element: b, i, u, ...
+	- Block Element: p, div, h1, h2, ...
+*@
+
+<div>
+	Hi, I'm <b>Hamed</b><i>Banaei</i>
+</div>
+
+<div>
+	Hi, I'm <p>Hamed</p><p>Banaei</p>
+</div>
+
+@*
+	@for (int index = 1; index <= 5; index++)
+	{
+		<h3>Hello, World (@(index))!</h3>
+
+		<hr />
+	}
+*@
+
+@for (int index = 1; index <= 5; index++)
+{
+	<h3>
+		Hello, World (@(index))!
+	</h3>
+
+	<hr />
+}
+
+<h3>
+	Now Learn: /Index
+</h3>
+
+<hr />

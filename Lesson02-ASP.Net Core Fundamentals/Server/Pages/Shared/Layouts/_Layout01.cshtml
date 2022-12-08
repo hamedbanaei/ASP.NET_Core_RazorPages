@@ -1,0 +1,118 @@
+﻿<!doctype html>
+
+<html lang="fa-IR" dir="rtl">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>@(ViewData["Title"])</title>
+
+	<meta name="author" content="Mr. Hamed Banaei" />
+	<meta name="description" content="A simple HTML5 Template for new projects." />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="~/images/Hamed.jpg" />
+	<meta property="og:title" content="A Basic HTML5 Template" />
+	<meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/" />
+	<meta property="og:description" content="A simple HTML5 Template for new projects." />
+
+	<link rel="icon" href="/favicon.ico" />
+	<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+	<environment include="Development" exclude="Production">
+		<link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.rtl.css" />
+		<link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.css" />
+	</environment>
+
+	<environment include="Production" exclude="Development">
+		<link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.rtl.min.css" />
+		<link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" />
+	</environment>
+
+	@*
+		<link rel="stylesheet" href="~/css/site.css" />
+	*@
+
+	@*
+		<link rel="stylesheet" href="~/css/site.css?v=1.0" />
+	*@
+
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+	@*
+		<link rel="stylesheet" href="~/Server.styles.css" asp-append-version="true" />
+	*@
+
+	<link rel="stylesheet" href="~/@(nameof(Server)).styles.css" asp-append-version="true" />
+
+	@RenderSection(name: "StyleSheets", required: false)
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light border-bottom box-shadow fixed-top">
+			<div class="container">
+				<a class="navbar-brand" asp-area="" asp-page="Index">
+					متخصصین ایرانی
+				</a>
+
+				<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link text-dark" asp-area="" asp-page="Index">خانه</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link text-dark" asp-area="" asp-page="About">درباره ما</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link text-dark" asp-area="" asp-page="Contact">تماس با ما</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main role="main" class="mt-5 pt-3">
+		<div class="container">
+			@(RenderBody())
+		</div>
+	</main>
+
+	<footer class="footer border-top py-3 bg-light text-muted fixed-bottom" dir="ltr">
+		<div class="container">
+			<span class="text-muted text-light">
+				@*
+					&copy; = ©
+				*@
+				©2022 - <a href="https://hbanaei.ir">hbanaei.ir</a>
+			</span>
+		</div>
+	</footer>
+
+	<environment include="Development" exclude="Production">
+		<script src="~/lib/bootstrap/js/bootstrap.js"></script>
+
+		<script src="~/lib/jquery/jquery.js"></script>
+		<script src="~/lib/jquery-validate/jquery.validate.js"></script>
+		<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+	</environment>
+
+	<environment include="Production" exclude="Development">
+		<script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+
+		<script src="~/lib/jquery/jquery.min.js"></script>
+		<script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+		<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+	</environment>
+
+	@RenderSection(name: "Scripts", required: false)
+</body>
+</html>

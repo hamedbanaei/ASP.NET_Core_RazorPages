@@ -1,0 +1,85 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!doctype html>
+
+<html lang="fa-IR" dir="rtl">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>@(ViewData["Title"])</title>
+
+	<link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.rtl.min.css" />
+	<link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" />
+
+	<link href="~/css/site.css" rel="stylesheet" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">متخصصین ایرانی</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a asp-page="/Learn018/Index" class="nav-link">خانه</a>
+					</li>
+
+					<li class="nav-item">
+						<a asp-page="/Learn018/Page1" class="nav-link">صفحه ۱</a>
+					</li>
+
+					<li class="nav-item">
+						<a asp-page="/Learn018/Page2" class="nav-link">صفحه ۲</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		@(RenderBody())
+
+		<hr />
+
+		<div dir="ltr">
+			In Layout:
+			<br />
+			ViewBag.Title: @(ViewBag.Title)
+			<br />
+			ViewData["Title"]: @(ViewData["Title"])
+		</div>
+
+		<hr />
+
+		<div dir="ltr">
+			In Layout:
+			<br />
+			ViewBag.MyData: @(ViewBag.MyData)
+			<br />
+			ViewData["MyData"]: @(ViewData["MyData"])
+		</div>
+
+		<hr />
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+		<div class="container" dir="ltr">
+			<span class="navbar-text small">
+				https://hbanaei.ir
+			</span>
+		</div>
+	</nav>
+
+	<script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="~/lib/jquery/jquery.min.js"></script>
+	<script src="~/lib/jquery-validate/jquery.validate.min.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

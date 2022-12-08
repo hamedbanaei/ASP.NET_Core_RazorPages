@@ -1,0 +1,268 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Server
+build_property.RootNamespace = Server
+build_property.ProjectDir = E:\_Business\Metako\Lesson02-ASP.Net Core Fundamentals\Server\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\_Business\Metako\Lesson02-ASP.Net Core Fundamentals\Server
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Errors/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3JzXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn001.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn002.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn003.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn004.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn005.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMDUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn006.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMDYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn007.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMDcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn008.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMDguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn009.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMDkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn010.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn011.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn012.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn013.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn014.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn015.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn016.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn017/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn017/Page1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTdcUGFnZTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn017/Page2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTdcUGFnZTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn018/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMThcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn018/Learn01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMThcTGVhcm4wMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn018/Learn02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMThcTGVhcm4wMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn018/Learn03.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMThcTGVhcm4wMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn018/Page1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMThcUGFnZTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn018/Page2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMThcUGFnZTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn019/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn019/Page1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTlcUGFnZTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn019/Page2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMTlcUGFnZTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn020/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn020/Learn01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjBcTGVhcm4wMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn021/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn021/Learn01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjFcTGVhcm4wMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn021/Learn02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjFcTGVhcm4wMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn021/Learn03.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjFcTGVhcm4wMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn021/Learn04.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjFcTGVhcm4wNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn022/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn023/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn023/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn023/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/Layouts/_Layout01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXExheW91dHNcX0xheW91dDAxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/Layouts/_Layout02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXExheW91dHNcX0xheW91dDAyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/PartialViews/_FavoriteIcon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBhcnRpYWxWaWV3c1xfRmF2b3JpdGVJY29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/PartialViews/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBhcnRpYWxWaWV3c1xfRm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/PartialViews/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBhcnRpYWxWaWV3c1xfSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/PartialViews/_OpenGraph.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBhcnRpYWxWaWV3c1xfT3BlbkdyYXBoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/PartialViews/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBhcnRpYWxWaWV3c1xfU2NyaXB0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/PartialViews/_Seo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBhcnRpYWxWaWV3c1xfU2VvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/PartialViews/_StyleSheets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFBhcnRpYWxWaWV3c1xfU3R5bGVTaGVldHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/_Layout01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQwMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/_Layout02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQwMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/_Layout03.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQwMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/_Layout04.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQwNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/_Layout05.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQwNS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/_Layout06.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQwNi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/_Layout07.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQwNy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Shared/_Layout08.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQwOC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/_Business/Metako/Lesson02-ASP.Net Core Fundamentals/Server/Pages/Learn022/Learn01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhcm4wMjJcTGVhcm4wMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-l6im0fjsl2

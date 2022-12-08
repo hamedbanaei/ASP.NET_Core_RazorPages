@@ -1,0 +1,86 @@
+﻿@page
+@model Server.Pages.Learn014Model
+
+@{
+	string fullName = "Hamed Banaei";
+}
+
+<div>
+	@if (fullName.StartsWith("Hamed"))
+	{
+		<span>I'm Hamed (1)</span>
+	}
+	else
+	{
+		<span>I'm not Hamed (1)</span>
+	}
+</div>
+
+@*
+	Error: Razor
+
+	<div>
+		@if(fullName.StartsWith("Hamed"))
+		{
+			I'm Hamed (2)
+		}
+		else
+		{
+			I'm not Hamed (2)
+		}
+	</div>
+*@
+
+<hr />
+
+<div>
+	@if (fullName.StartsWith("Hamed"))
+	{
+		<text>I'm Hamed (3)</text>
+	}
+	else
+	{
+		<text>I'm not Hamed (3)</text>
+	}
+</div>
+
+<hr />
+
+<div>
+	@if (fullName.StartsWith("Hamed"))
+	{
+		<text>I'm <b>Hamed</b> (4)</text>
+	}
+	else
+	{
+		<text>I'm not <b>Hamed</b> (4)</text>
+	}
+</div>
+
+<hr />
+
+<div>
+	@if (fullName.StartsWith("Hamed"))
+	{
+		@:I'm Hamed (5)
+	}
+	else
+	{
+		@:I'm not Hamed (5)
+	}
+</div>
+
+<hr />
+
+<div>
+	@if (fullName.StartsWith("Hamed"))
+	{
+		@:I'm <b>Hamed</b> (6)
+	}
+	else
+	{
+		@:I'm not <b>Hamed</b> (6)
+	}
+</div>
+
+<hr />
