@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4ae1b5aa-8db6-45eb-a096-05b1183087c9": {
+      "ProjectGuid": "4ae1b5aa-8db6-45eb-a096-05b1183087c9",
+      "DisplayName": "CryptographyAlgorithmsBenchmark",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
