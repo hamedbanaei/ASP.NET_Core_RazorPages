@@ -1,0 +1,9 @@
+{
+	"MyAdminSettings": {
+		"Age": 41,
+		"IsActive": true,
+		"Salary": 456.123,
+		"FullName": "Mr. Hamed Banaei",
+		"FavoriteColors": [ "Red", "Green" ]
+	}
+}

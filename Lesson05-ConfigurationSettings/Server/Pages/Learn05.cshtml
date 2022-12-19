@@ -1,0 +1,34 @@
+﻿@page
+@model Server.Pages.Learn05Model
+
+<h3>
+	Learn 5
+</h3>
+
+<hr />
+
+ActivationKey: @(Model.ApplicationSettings.ActivationKey)
+<br />
+
+@if (Model.ApplicationSettings.CultureSettings == null)
+{
+	return;
+}
+
+<h5>
+	Cultures
+</h5>
+
+Default Culture: @(Model.ApplicationSettings.CultureSettings.DefaultCultureName)
+<br />
+Supported Culture Names:
+@if (Model.ApplicationSettings.CultureSettings.SupportedCultureNames != null)
+{
+	foreach (var item in Model.ApplicationSettings.CultureSettings.SupportedCultureNames)
+	{
+		@(item)
+		@:&nbsp;
+	}
+}
+
+<hr />

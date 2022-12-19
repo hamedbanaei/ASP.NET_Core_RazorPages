@@ -1,0 +1,38 @@
+﻿@page
+@model Server.Pages.IndexModel
+@{
+	//var pageTitle = "خانه";
+
+	var pageTitle =
+		Resources.PageTitles.Index;
+
+	ViewData["PageTitle"] = pageTitle;
+}
+
+<h3>
+	@(pageTitle)
+</h3>
+
+<hr />
+
+<ul dir="ltr">
+	<li><a asp-page="Admin/Cultures01/Index">Admin/Cultures01/Index</a></li>
+</ul>
+
+<hr />
+
+<div class="row">
+	<div class="col">
+		@(Resources.DataDictionary.SourceCode)
+
+		<br />
+
+		<div dir="ltr">
+			<a href="#" target="_blank">
+				Source Code
+			</a>
+		</div>
+	</div>
+</div>
+
+<hr />

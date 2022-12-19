@@ -1,0 +1,51 @@
+﻿@page
+@model Server.Pages.ContactModel
+@{
+    var pageTitle =
+                Resources.PageTitles.Contact;
+
+    ViewData["PageTitle"] = pageTitle;
+}
+
+<h3>
+    @(pageTitle)
+</h3>
+
+<hr />
+
+<div class="row">
+    <div class="col">
+        @(Resources.DataDictionary.CellPhoneNumber):
+        <a href="tel:09123085282">09123085282</a>
+        <br />
+        @(Resources.DataDictionary.EmailAddress):
+        <a href="mailto:HamedBanaei1982@GMail.com" target="_blank">HamedBanaei1982@GMail.com</a>
+        <br />
+        @(Resources.DataDictionary.Blog):
+        <a href="#" target="_blank">My Blog</a>
+
+        <hr />
+
+        <h5>
+            @(Resources.DataDictionary.Websites)
+        </h5>
+
+        <ul dir="ltr">
+            <li><a href="https://hbanaei.ir/" target="_blank">https://hbanaei.ir</a></li>
+            <li><a href="https://mrskate.ir/" target="_blank">https://mrskate.ir</a></li>
+        </ul>
+    </div>
+    <div class="col">
+        <h5>
+            @(Resources.DataDictionary.SocialNetworks)
+        </h5>
+
+        <ul dir="ltr">
+            <li>Telegram: <a href="https://t.me/IrTechLine" target="_blank">https://t.me/IrTechLine</a></li>
+            <li>Github: <a href="https://github.com/HamedBanaei" target="_blank">https://GitHub.com/HamedBanaei</a></li>
+            <li>linkedin: <a href="https://www.linkedin.com/in/HamedBanaei/" target="_blank">https://www.LinkedIn.com/In/HamedBanaei</a></li>
+        </ul>
+    </div>
+</div>
+
+<hr />
